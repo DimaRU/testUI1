@@ -1,0 +1,21 @@
+PODS:
+  - CustomSegue (3.0.0)
+
+DEPENDENCIES:
+  - CustomSegue (from `https://github.com/DimaRU/CustomSegue.git`)
+
+EXTERNAL SOURCES:
+  CustomSegue:
+    :git: https://github.com/DimaRU/CustomSegue.git
+
+CHECKOUT OPTIONS:
+  CustomSegue:
+    :commit: 564408cb908793ddfd154ae7e999178ed46ba5a6
+    :git: https://github.com/DimaRU/CustomSegue.git
+
+SPEC CHECKSUMS:
+  CustomSegue: 219e4609d61a92b1288db1331980b66c8a25ad78
+
+PODFILE CHECKSUM: f1628c5ddeeb1ebb301256d715470b4b630457c3
+
+COCOAPODS: 1.3.1
