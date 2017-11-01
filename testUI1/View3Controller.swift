@@ -15,7 +15,7 @@ class View3Controller: NavigatedViewController {
         
         view.wantsLayer = true
         view.layer?.backgroundColor = NSColor.blue.cgColor
-        navigator?.batTile = "Detail"
+//        navigator?.barTitle = "Detail"
     }
     
 }

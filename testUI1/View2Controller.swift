@@ -17,11 +17,10 @@ class View2Controller: NavigatedViewController {
 
         view.wantsLayer = true
         view.layer?.backgroundColor = NSColor.green.cgColor
-        navigator?.batTile = "Row \(delegate.tableView.selectedRow)"
+//        navigator?.barTitle = "Row \(delegate.tableView.selectedRow)"
     }
     
     override func viewWillAppear() {
-        print("viewWillAppear()")
-        navigator?.batTile = "Row \(delegate.tableView.selectedRow)"
+//        navigator?.barTitle = "Row \(delegate.tableView.selectedRow)"
     }
 }

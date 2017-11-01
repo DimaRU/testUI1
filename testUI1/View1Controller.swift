@@ -22,6 +22,10 @@ class View1Controller: NavigatedViewController, NSTableViewDelegate, NSTableView
         view.layer?.backgroundColor = NSColor.red.cgColor
     }
     
+    override func viewWillAppear() {
+//        navigator?.barTitle = ""
+    }
+    
     func numberOfRows(in tableView: NSTableView) -> Int {
         return list.count
     }

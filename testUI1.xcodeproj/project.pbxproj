@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0A8519861EAA66560093913A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8519851EAA66560093913A /* AppDelegate.swift */; };
-		0A8519881EAA66560093913A /* ViewNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8519871EAA66560093913A /* ViewNavigator.swift */; };
 		0A85198A1EAA66560093913A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8519891EAA66560093913A /* Assets.xcassets */; };
 		0A85198D1EAA66560093913A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A85198B1EAA66560093913A /* Main.storyboard */; };
 		0AB69BE91EAF909200EAEC3E /* NSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB69BE81EAF909200EAEC3E /* NSViewExtension.swift */; };
+		0ABD45421FA7976400A3523F /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD45411FA7976400A3523F /* FooterView.xib */; };
+		0ABD45441FA7978E00A3523F /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD45431FA7978E00A3523F /* FooterView.swift */; };
+		0ABD45461FA79B3C00A3523F /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD45451FA79B3C00A3523F /* HeaderView.xib */; };
+		0ABD45481FA79B5700A3523F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD45471FA79B5700A3523F /* HeaderView.swift */; };
 		0AD03C551EAE80B4007ACF9B /* NavigatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD03C541EAE80B4007ACF9B /* NavigatedViewController.swift */; };
-		0AE55E091EABEA8F00AE113F /* CrossfadeStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE55E081EABEA8F00AE113F /* CrossfadeStoryboardSegue.swift */; };
 		0AE55E0B1EABF25D00AE113F /* View1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE55E0A1EABF25D00AE113F /* View1Controller.swift */; };
 		0AE55E0D1EABF29700AE113F /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE55E0C1EABF29700AE113F /* View2Controller.swift */; };
 		0AE55E0F1EABF2BD00AE113F /* View3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE55E0E1EABF2BD00AE113F /* View3Controller.swift */; };
@@ -23,13 +25,15 @@
 /* Begin PBXFileReference section */
 		0A8519821EAA66560093913A /* testUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8519851EAA66560093913A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A8519871EAA66560093913A /* ViewNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNavigator.swift; sourceTree = "<group>"; };
 		0A8519891EAA66560093913A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A85198C1EAA66560093913A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A85198E1EAA66560093913A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AB69BE81EAF909200EAEC3E /* NSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSViewExtension.swift; sourceTree = "<group>"; };
+		0ABD45411FA7976400A3523F /* FooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		0ABD45431FA7978E00A3523F /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		0ABD45451FA79B3C00A3523F /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		0ABD45471FA79B5700A3523F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		0AD03C541EAE80B4007ACF9B /* NavigatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigatedViewController.swift; sourceTree = "<group>"; };
-		0AE55E081EABEA8F00AE113F /* CrossfadeStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossfadeStoryboardSegue.swift; sourceTree = "<group>"; };
 		0AE55E0A1EABF25D00AE113F /* View1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1Controller.swift; sourceTree = "<group>"; };
 		0AE55E0C1EABF29700AE113F /* View2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
 		0AE55E0E1EABF2BD00AE113F /* View3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3Controller.swift; sourceTree = "<group>"; };
@@ -71,19 +75,29 @@
 		0A8519841EAA66560093913A /* testUI1 */ = {
 			isa = PBXGroup;
 			children = (
-				0AE55E081EABEA8F00AE113F /* CrossfadeStoryboardSegue.swift */,
 				0AB69BE81EAF909200EAEC3E /* NSViewExtension.swift */,
 				0A8519851EAA66560093913A /* AppDelegate.swift */,
-				0A8519871EAA66560093913A /* ViewNavigator.swift */,
-				0AD03C541EAE80B4007ACF9B /* NavigatedViewController.swift */,
 				0A8519891EAA66560093913A /* Assets.xcassets */,
 				0A85198B1EAA66560093913A /* Main.storyboard */,
 				0A85198E1EAA66560093913A /* Info.plist */,
 				0AE55E0A1EABF25D00AE113F /* View1Controller.swift */,
 				0AE55E0C1EABF29700AE113F /* View2Controller.swift */,
 				0AE55E0E1EABF2BD00AE113F /* View3Controller.swift */,
+				0ABD45491FA7A01F00A3523F /* NavigatedViewController */,
 			);
 			path = testUI1;
+			sourceTree = "<group>";
+		};
+		0ABD45491FA7A01F00A3523F /* NavigatedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0AD03C541EAE80B4007ACF9B /* NavigatedViewController.swift */,
+				0ABD45451FA79B3C00A3523F /* HeaderView.xib */,
+				0ABD45471FA79B5700A3523F /* HeaderView.swift */,
+				0ABD45431FA7978E00A3523F /* FooterView.swift */,
+				0ABD45411FA7976400A3523F /* FooterView.xib */,
+			);
+			path = NavigatedViewController;
 			sourceTree = "<group>";
 		};
 		9F96573E4BF124053459F299 /* Pods */ = {
@@ -168,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A85198A1EAA66560093913A /* Assets.xcassets in Resources */,
+				0ABD45421FA7976400A3523F /* FooterView.xib in Resources */,
 				0A85198D1EAA66560093913A /* Main.storyboard in Resources */,
+				0ABD45461FA79B3C00A3523F /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +252,8 @@
 				0AE55E0B1EABF25D00AE113F /* View1Controller.swift in Sources */,
 				0AB69BE91EAF909200EAEC3E /* NSViewExtension.swift in Sources */,
 				0AE55E0D1EABF29700AE113F /* View2Controller.swift in Sources */,
-				0A8519881EAA66560093913A /* ViewNavigator.swift in Sources */,
-				0AE55E091EABEA8F00AE113F /* CrossfadeStoryboardSegue.swift in Sources */,
+				0ABD45441FA7978E00A3523F /* FooterView.swift in Sources */,
+				0ABD45481FA79B5700A3523F /* HeaderView.swift in Sources */,
 				0AE55E0F1EABF2BD00AE113F /* View3Controller.swift in Sources */,
 				0AD03C551EAE80B4007ACF9B /* NavigatedViewController.swift in Sources */,
 				0A8519861EAA66560093913A /* AppDelegate.swift in Sources */,
@@ -375,7 +391,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.borovikov.testUI1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -391,7 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.borovikov.testUI1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

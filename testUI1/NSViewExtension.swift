@@ -18,3 +18,15 @@ extension NSView {
         }
     }
 }
+
+extension NSView {
+    class func fromNib<T: NSView>() -> T? {
+        var viewArray: NSArray? = NSArray()
+        guard Bundle.main.loadNibNamed(NSNib.Name(rawValue: String(describing: T.self)),
+                                       owner: nil,
+                                       topLevelObjects: &viewArray) else {
+            return nil
+        }
+        return viewArray?.first(where: { $0 is T }) as? T
+    }
+}
